@@ -13,4 +13,7 @@ jobs:
           mkdir NewFolderTest
           ls  -l
         shell: bash
+      - name: Run Scipt file from repo
+        run: sh ./run.sh
+        shell: pwsh
       
