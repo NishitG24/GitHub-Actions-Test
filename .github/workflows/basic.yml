@@ -8,4 +8,8 @@ jobs:
       - name: Checkout_Test
         uses:  actions/checkout@v2.5.0
       - run:  echo "🐧 This job is now running on a ${{ github.repository }} server hosted by GitHub!"
+      - name: Run Inline Scripting
+        run: | 
+          mkdir NewFolderTest
+          ls-l
       
