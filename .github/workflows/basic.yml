@@ -11,5 +11,5 @@ jobs:
       - name: Run Inline Scripting
         run: | 
           mkdir NewFolderTest
-          ls-l
+          ls  -l
       
